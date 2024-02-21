@@ -86,6 +86,45 @@
 }
 /* END: Home styles */
 
+
+/* START: Mission styles */
+.mission {
+  @apply flex flex-col items-center justify-start gap-5 m-12;
+}
+
+.mission__title {
+  @apply xl:text-[42px] sm:text-[30px] font-extrabold;
+}
+
+.mission__content {
+  @apply flex gap-5 relative z-0 max-w-[1440px] mx-auto;
+}
+
+.mission__left {
+  @apply flex flex-col gap-5 w-3/4;
+}
+
+.mission__right {
+  @apply flex flex-col gap-5 w-1/4;
+}
+
+.mission__horizontal__card {
+  @apply flex flex-row p-6 justify-center items-start text-black-100  bg-white shadow-md rounded-3xl;
+}
+
+.mission__vertical__card {
+  @apply flex flex-col p-6 justify-center items-start text-black-100 bg-white shadow-md rounded-3xl;
+}
+
+.mission__horizontal__card__content {
+  @apply m-4 justify-between items-start gap-2;
+}
+.mission__vertical__card__content {
+  @apply m-1 justify-between items-start gap-2;
+}
+.mission__card__title{
+   @apply text-black font-extrabold text-[17px] leading-[26px];
+}
 /* START: Car Card styles */
 .car-card {
   @apply flex flex-col p-6 justify-center items-start text-black-100 bg-primary-blue-100 hover:bg-white hover:shadow-md rounded-3xl;
