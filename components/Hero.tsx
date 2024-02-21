@@ -7,10 +7,9 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="flex-1 pt-36 padding-x">
-        <h1 className="hero__title">Welcome to the IIT-B Racing</h1>
+        <h1 className="hero__title">Welcome to the IIT Bombay Racing</h1>
         <p className="hero__subtitle">
-          We are a student team that designs, manufactures and tests
-          formula-style
+          Join us in our journey to build the fastest electric car in India
         </p>
 
         <CustomButton
