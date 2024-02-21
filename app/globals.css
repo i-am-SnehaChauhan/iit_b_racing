@@ -89,7 +89,7 @@
 
 /* START: Mission styles */
 .mission {
-  @apply flex flex-col items-center justify-start gap-5 m-12;
+  @apply flex flex-col items-center justify-start gap-5 m-16;
 }
 
 .mission__title {
