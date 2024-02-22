@@ -125,6 +125,24 @@
 .mission__card__title{
    @apply text-black font-extrabold text-[17px] leading-[26px];
 }
+
+@media (max-width: 640px) {
+  .mission__content {
+    @apply flex-col;
+  }
+  .mission__left {
+    @apply w-full;
+  }
+  .mission__right {
+    @apply w-full;
+  }
+  .mission__horizontal__card {
+    @apply  flex-col;
+  }
+  .mission__vertical__card {
+    max-width: 100%; /* Set max-width to full for small screens */
+  }
+}
 /* START: Car Card styles */
 .car-card {
   @apply flex flex-col p-6 justify-center items-start text-black-100 bg-primary-blue-100 hover:bg-white hover:shadow-md rounded-3xl;

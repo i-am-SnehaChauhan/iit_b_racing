@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
+import {useState} from 'react'
 
 const Navbar = () => {
   return (
@@ -13,7 +14,6 @@ const Navbar = () => {
                         height={18}
                         className="object-contain"
                     />
-
              </Link>
         </nav>
     </header>
