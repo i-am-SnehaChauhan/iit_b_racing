@@ -93,7 +93,7 @@
 }
 
 .mission__title {
-  @apply xl:text-[42px] sm:text-[30px] font-extrabold;
+  @apply xl:text-[42px] md:text-[38px] font-extrabold;
 }
 
 .mission__content {
@@ -137,12 +137,21 @@
     @apply w-full;
   }
   .mission__horizontal__card {
-    @apply  flex-col;
+    @apply  flex-col ;
   }
   .mission__vertical__card {
-    max-width: 100%; /* Set max-width to full for small screens */
+    @apply flex-col;
   }
 }
+
+/* Team styles */
+
+
+
+
+
+/* Add more circle classes as needed */
+
 /* START: Car Card styles */
 .car-card {
   @apply flex flex-col p-6 justify-center items-start text-black-100 bg-primary-blue-100 hover:bg-white hover:shadow-md rounded-3xl;
