@@ -7,8 +7,8 @@ const Team = () => {
   const Join = () => {};
 
   return (
-    <div className="flex flex-col md:flex-row lg:flex-row items-center justify-center bg-[#fff] from-primary to-secondary bg-cover overflow-hidden text-white relative">
-        <div className="flex-1 mx-3 md:mx-7 my-14 py-10 px-6 md:px-16 max-w-7xl bg-opacity-70 bg-[#00004D] backdrop-blur-md rounded-lg md:ml-20 md:my-14">
+    <div className="flex flex-col md:flex-row lg:flex-row items-center justify-center bg-[#fff]  bg-cover overflow-hidden text-black relative">
+        <div className="flex-1 mx-4 md:mx-7 my-14 py-10 px-6 md:px-16 max-w-7xl bg-opacity-70 bg-[#c9c9ec] backdrop-blur-md rounded-lg md:ml-20 md:my-14">
             <div className="grid md:grid-cols-2 gap-4 items-start">
              <div>
             <h1 className="text-3xl md:text-5xl font-bold mb-2">The Team</h1>

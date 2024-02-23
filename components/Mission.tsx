@@ -35,6 +35,20 @@ const Mission = () => {
               </p>
             </div>
           </div>
+          <div className="mission__horizontal__card">
+            <Image
+              src="/mission2.png"
+              alt="mission1"
+              width={300}
+              height={300}
+            />
+            <div className="mission__horizontal__card__content">
+              <h3 className="mission__card__title">Engineering the Future</h3>
+              <p>
+              At our core, we are driven by the vision of engineering a sustainable future. With relentless dedication and innovative thinking. Our mission is to pioneer groundbreaking technologies that not only redefine the automotive industry but also contribute significantly to reducing our carbon footprint. Join us as we embark on this journey towards a greener and brighter tomorrow.
+              </p>
+            </div>
+          </div>
         </div>
         <div className="mission__right">
           <div className="mission__vertical__card">
