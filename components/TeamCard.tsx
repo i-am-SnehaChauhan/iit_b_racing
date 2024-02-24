@@ -11,6 +11,7 @@ interface SocialMediaLinksProps {
 }
 
 interface CardProps {
+    image: string;
     name: string;
     title: string;
     socials: SocialMediaLink[];
@@ -49,7 +50,7 @@ const CardContainer = ({ teamData }: CardContainerProps) => (
     <div className='floating'>
         <div className="card-container">
             {teamData.map((card, index) => (
-                <Card key={index} {...card} />
+                <Card key={index} {...card} image={card.image.src} />
             ))}
         </div>
     </div>
