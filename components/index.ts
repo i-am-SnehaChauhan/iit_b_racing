@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Mission from "./Mission";
 import Team from "./Team";
+import TeamCard from "./TeamCard";
 
 
 export { 
@@ -12,5 +13,6 @@ export {
     Navbar,
     Footer,
     Mission,
-    Team
+    Team,
+    TeamCard
 };

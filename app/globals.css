@@ -146,9 +146,95 @@
 
 /* Team styles */
 
+.team{
+  @apply overflow-hidden bg-cover bg-no-repeat mt-20;
+
+}
+
+.heading{
+  @apply text-5xl font-extrabold text-[#00004D] text-center;
+}
+
+.floating{
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 15px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
 
 
 
+.card {
+  @apply rounded-lg overflow-hidden m-10 bg-gradient-to-r from-blue-600 to-purple-800 shadow-lg;
+}
+
+.card-content {
+  @apply flex flex-row items-center justify-center p-10;
+}
+
+.info {
+  @apply text-white text-center;
+}
+
+.avatar {
+  @apply w-32 h-32 rounded-full mr-20;
+}
+
+.social-media-links {
+  @apply flex;
+}
+
+.react-icon {
+  @apply text-lg;
+}
+
+a {
+  @apply no-underline text-gray-700;
+}
+@media (max-width: 768px) {
+  .card-container {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+
+  .card-content {
+    flex-direction: column;
+  }
+
+  .avatar{
+    @apply mr-0 mb-10;
+  }
+
+  .social-media-links {
+    @apply flex-row;
+  }
+  .card-container{
+    @apply grid-cols-1;
+  }
+}
 
 /* Add more circle classes as needed */
 
